@@ -1,26 +1,19 @@
-
-
 nav {
     background-color: #cd7f32;
 }
-
 .navbar-brand {
     font-family: 'Viga', sans-serif;
 }
-
 .navbar-brand:hover {
     color: black;
 }
-
 .nav-item {
     padding: 10px;
 
 }
-
 nav a {
     color: black;
 }
-
 .nav-item a:hover {
     color: white;
     border: .5px white solid;
@@ -33,40 +26,30 @@ nav a {
     background-size: cover;
     height: 600px;
 }
-
-
 .btn {
     background-color: #cd7f32;
     border: none;
     padding: 20px;
     color: black;
 }
-
 .btn:hover {
-    background-color: black;
+    background-color: tan;
 }
-
 .btn-2 {
     background-color: black;
     color: white;
 }
-
 .display-4 {
     font-family: 'Viga', sans-serif;
-
 }
-
 .display-4, .lead {
     color: black;
 }
-
-.featured-products h2 {
+.featured-products h2, .carousel h2 {
     text-align: center;
     padding: 20px;
     font-family: 'Viga', sans-serif;
-
 }
-
 footer {
     background-color: black;
     position: static;
@@ -74,30 +57,31 @@ footer {
     padding: 10px;
     text-align: center;
 }
-
 .footer-nav {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
 footer li {
     color: white;
     list-style-type: none;
     padding: 10px;
 }
-
 footer li:hover {
     color: white;
     border: .5px white solid;
-    
 }
-
 footer a:hover {
     text-decoration: none;
 }
-
 .social {
     text-align: center;
+}
+.w-100 {
+    padding: 30px;
+}
+.carousel-control-next {
+    color: gray;
+   
 }
